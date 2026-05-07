@@ -1,0 +1,20 @@
+packages:
+  "framer-motion": "Smooth animations for carousel, mobile menu, and sliding cart sidebar"
+  "clsx": "Utility for conditionally joining classNames"
+  "tailwind-merge": "Utility to merge Tailwind classes safely"
+
+images:
+  - path: "artifacts/velvetora/public/images/hero-jewellery.png"
+    description: "Luxurious velvet crimson background with elegant gold and diamond jewellery spread gracefully, soft warm lighting, high end commercial photography, elegant composition"
+    aspect_ratio: "16:9"
+  - path: "artifacts/velvetora/public/images/hero-stationery.png"
+    description: "Premium leather journals and gold pens arranged beautifully on an ivory desk surface with a deep red velvet ribbon, elegant top-down composition"
+    aspect_ratio: "16:9"
+  - path: "artifacts/velvetora/public/images/hero-custom.png"
+    description: "Beautiful premium gift hamper box tied with a luxurious gold ribbon, sitting on dark crimson velvet fabric, rich presentation"
+    aspect_ratio: "16:9"
+
+notes:
+  - All product data is stored locally in a JavaScript array as requested.
+  - Cart state is managed globally via React Context to allow access from Header, CartSidebar, and ProductGrid without prop drilling.
+  - No external API calls are made.
