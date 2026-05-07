@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "pOrTB47KqGC1Yk7h6bd0m"
+uri = "file://velvetora-website.tar.gz"
+type = "unspecified"
+title = "Velvetora Website - Source Files"
